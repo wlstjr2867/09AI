@@ -20,7 +20,7 @@ def to_csv(name, maxdata):
     mag, img_count = struct.unpack(">II", img_f.read(8))
     # 이미지의 행과 열의 크기 읽기
     rows, cols = struct.unpack(">II", img_f.read(8))
-    # 이미지의 픽셀 갯수 계산 (28*28)
+    # 이미지의 픽셀 갯수 계산 ( 28*28)
     pixels = rows * cols
 
     # 이미지 데이터를 읽고 CSV로 저장
