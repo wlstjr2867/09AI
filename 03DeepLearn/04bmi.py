@@ -11,7 +11,7 @@ csv["weight"] = csv["weight"] / 100
 
 # label 컬럼의 체형정보를 원-핫 인코딩 형태로 변환(딕셔너리로 정의)
 bclass = {"thin": [1, 0 , 0], "normal": [0, 1, 0], "fat": [0, 0, 1]}
-# 변환한 데이터로 새로운 컬럼 생성
+# 변환한 데이터로 새로운 컬럼 생성89
 csv["label_pat"] = csv["label"].apply(lambda x: np.array(bclass[x]))
 # 데이터 상위 5개 확인하기
 print(csv.head())

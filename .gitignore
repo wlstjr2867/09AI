@@ -1,0 +1,13 @@
+/02MachineLearn/resMnist/
+/02MachineLearn/saveFiles/
+/02MachineLearn/resData/
+/02MachineLearn/lang/
+/03DeepLearn/log_dir/
+/03DeepLearn/resData/
+/04ImgClassifier/caltech101/
+/04ImgClassifier/resData/
+/04ImgClassifier/saveFiles/
+/04ImgClassifier/download/
+/04ImgClassifier/predict_error/
+/04ImgClassifier/kfood/
+/04ImgClassifier/test_img/
